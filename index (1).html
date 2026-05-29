@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SILAT NUSANTARA - Era Baru Pencak Silat Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { brand: { dark: '#090d16', darklgt: '#121824', bronze: '#C39B77', cream: '#D2B48C' } } } }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-slate-200 antialiased selection:bg-brand-bronze selection:text-brand-dark">
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-brand-dark/90 backdrop-blur border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-black tracking-wider text-white">SILAT <span class="text-brand-bronze">NUSANTARA</span></a>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-slate-300">
+                <a href="#beranda" class="hover:text-brand-bronze transition-all">Beranda</a>
+                <a href="#tentang" class="hover:text-brand-bronze transition-all">Kategori</a>
+                <a href="#pendaftaran" class="hover:text-brand-bronze transition-all">Pendaftaran</a>
+                <a href="#pembayaran" class="hover:text-brand-bronze transition-all">Pembayaran</a>
+            </nav>
+            <a href="#pendaftaran" class="px-4 py-2 text-xs font-bold border border-brand-bronze text-brand-bronze hover:bg-brand-bronze hover:text-brand-dark rounded-sm transition-all uppercase">Daftar</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="beranda" class="min-h-[calc(100vh-4rem)] flex items-center px-4 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-brand-dark to-brand-dark">
+        <div class="max-w-4xl mx-auto text-center py-12">
+            <span class="inline-block text-xs font-bold tracking-widest text-brand-bronze bg-brand-bronze/10 px-3 py-1 rounded-full mb-4">COMPETITION 2026</span>
+            <h1 class="text-3xl sm:text-5xl font-extrabold text-white leading-tight mb-6">
+                Lestarikan Budaya, Ukir Prestasi Mendunia di <span class="text-brand-bronze">SILAT NUSANTARA!</span>
+            </h1>
+            <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto mb-8">
+                Era Baru Kompetisi Pencak Silat: <span class="text-white">Profesional</span>, <span class="text-white">Transparan</span>, dan <span class="text-white">Berbasis Digital</span>.
+            </p>
+            <a href="#pendaftaran" class="inline-block px-8 py-4 text-sm font-bold uppercase bg-brand-bronze hover:bg-brand-cream text-brand-dark transition-all rounded-sm shadow-md">Daftar Sekarang Juga!</a>
+        </div>
+    </section>
+
+    <!-- ABOUT THE EVENT -->
+    <section id="tentang" class="py-16 bg-brand-darklgt border-y border-slate-900">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-12">
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-4">Apa itu SILAT NUSANTARA?</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed text-justify">
+                        <strong class="text-brand-bronze">SILAT NUSANTARA</strong> adalah ajang kejuaraan pencak silat modern yang menjadi wadah utama bagi para atlet untuk menembus batas prestasi, menjunjung tinggi sportivitas, sekaligus melestarikan warisan budaya Indonesia. Kami membawa kompetisi silat ke level berikutnya dengan integrasi Sistem Digital Terkini:
+                    </p>
+                </div>
+                <!-- 3 Fitur Digital -->
+                <div class="space-y-3">
+                    <div class="p-4 bg-brand-dark border border-slate-800 rounded-sm"><h3 class="text-sm font-bold text-brand-bronze">✓ Live Score Realtime</h3><p class="text-xs text-slate-400">Transparansi nilai yang dapat dilihat langsung saat bertanding.</p></div>
+                    <div class="p-4 bg-brand-dark border border-slate-800 rounded-sm"><h3 class="text-sm font-bold text-brand-bronze">✓ Klasemen Otomatis</h3><p class="text-xs text-slate-400">Pembaruan peringkat yang cepat dan akurat.</p></div>
+                    <div class="p-4 bg-brand-dark border border-slate-800 rounded-sm"><h3 class="text-sm font-bold text-brand-bronze">✓ Pendaftaran Online</h3><p class="text-xs text-slate-400">Proses registrasi praktis tanpa ribet.</p></div>
+                </div>
+            </div>
+
+            <!-- CATEGORIES & FEES -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8 border-t border-slate-800">
+                <div class="bg-brand-dark p-5 border border-slate-800 rounded-sm">
+                    <h3 class="font-bold text-white mb-3 text-sm tracking-wide uppercase text-brand-bronze">Biaya Pendaftaran</h3>
+                    <ul class="text-xs space-y-2 text-slate-300 divide-y divide-slate-800">
+                        <li class="flex justify-between py-2"><span>Tanding (Perorangan)</span><span class="font-bold text-white">Rp200.000</span></li>
+                        <li class="flex justify-between py-2"><span>Tunggal (Perorangan)</span><span class="font-bold text-white">Rp150.000</span></li>
+                        <li class="flex justify-between py-2"><span>Ganda (Berpasangan)</span><span class="font-bold text-white">Rp300.000</span></li>
+                        <li class="flex justify-between py-2"><span>Regu (Berkelompok)</span><span class="font-bold text-white">Rp450.000</span></li>
+                        <li class="flex justify-between py-2"><span>Solo Kreatif (Perorangan)</span><span class="font-bold text-white">Rp200.000</span></li>
+                    </ul>
+                </div>
+                <div class="bg-brand-dark p-5 border border-slate-800 rounded-sm">
+                    <h3 class="font-bold text-white mb-3 text-sm tracking-wide uppercase text-brand-bronze">Kategori Usia</h3>
+                    <ul class="text-xs space-y-3 text-slate-300">
+                        <li class="flex items-center"><span class="w-24 text-white font-semibold">Usia Dini:</span> 6–11 tahun</li>
+                        <li class="flex items-center"><span class="w-24 text-white font-semibold">Pra Remaja:</span> 12–14 tahun</li>
+                        <li class="flex items-center"><span class="w-24 text-white font-semibold">Remaja:</span> 15–17 tahun</li>
+                        <li class="flex items-center"><span class="w-24 text-white font-semibold">Dewasa:</span> 18–35 tahun</li>
+                        <li class="flex items-center"><span class="w-24 text-white font-semibold">Veteran:</span> 36 tahun ke atas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REGISTRATION FORM -->
+    <section id="pendaftaran" class="py-16 bg-brand-dark">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center text-white mb-8">Formulir Pendaftaran Atlet</h2>
+            <form class="space-y-6 bg-brand-darklgt border border-slate-800 p-6 rounded-sm shadow-xl">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                    <div><label class="block text-slate-400 mb-1">Nama Lengkap</label><input type="text" required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                    <div><label class="block text-slate-400 mb-1">Jenis Kelamin</label><select required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"><option value="Laki-laki">Laki-laki</option><option value="Perempuan">Perempuan</option></select></div>
+                    <div><label class="block text-slate-400 mb-1">Tempat, Tanggal Lahir</label><input type="text" required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                    <div><label class="block text-slate-400 mb-1">Kategori Usia</label><select required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"><option>Usia Dini</option><option>Pra Remaja</option><option>Remaja</option><option>Dewasa</option><option>Veteran</option></select></div>
+                    <div><label class="block text-slate-400 mb-1">Berat Badan (kg)</label><input type="number" required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                    <div><label class="block text-slate-400 mb-1">Tinggi Badan (cm)</label><input type="number" required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                    <div><label class="block text-slate-400 mb-1">Kategori Pertandingan</label><select required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"><option>Tanding</option><option>Tunggal</option><option>Ganda</option><option>Regu</option><option>Solo Kreatif</option></select></div>
+                    <div><label class="block text-slate-400 mb-1">Nomor HP (WhatsApp)</label><input type="tel" required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                    <div class="sm:col-span-2"><label class="block text-slate-400 mb-1">Nama Perguruan/Kontingen</label><input type="text" required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                    <div class="sm:col-span-2"><label class="block text-slate-400 mb-1">Alamat Lengkap</label><input type="text" required class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                    <div class="sm:col-span-2"><label class="block text-slate-400 mb-1">Riwayat Prestasi (Opsional)</label><input type="text" class="w-full bg-brand-dark border border-slate-700 p-2.5 text-white outline-none focus:border-brand-bronze rounded-sm"></div>
+                </div>
+
+                <!-- DRAG DROP VISUAL ZONE -->
+                <div class="p-4 border border-dashed border-slate-600 bg-brand-dark/50 text-center rounded-sm relative group hover:border-brand-bronze transition-all">
+                    <input type="file" multiple required class="absolute inset-0 opacity-0 cursor-pointer w-full h-full">
+                    <span class="block text-xs font-semibold text-slate-300">Upload Berkas (Format JPG/PNG/PDF)</span>
+                    <span class="block text-[10px] text-slate-500 mt-1">Pas Foto, KTP/Pelajar, Surat Sehat, Izin Orang Tua, & Bukti Bayar</span>
+                </div>
+
+                <button type="submit" class="w-full py-3.5 text-xs font-bold uppercase bg-brand-bronze hover:bg-brand-cream text-brand-dark transition-all rounded-sm tracking-wide">KIRIM FORMULIR & DAFTAR SEKARANG</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- PAYMENT INFORMATION -->
+    <section id="pembayaran" class="py-16 bg-brand-darklgt border-t border-slate-900">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold text-white mb-6">Metode Pembayaran Resmi</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left max-w-2xl mx-auto mb-6">
+                <div class="p-5 bg-brand-dark border border-slate-800 rounded-sm">
+                    <span class="text-xs bg-blue-600 text-white font-bold px-2 py-0.5 rounded tracking-wide mr-2">BCA</span>
+                    <span class="text-sm font-bold text-white">Bank Transfer</span>
+                    <p class="text-xs text-slate-400 mt-3">No. Rekening: <span class="text-slate-200 font-mono">1234567890</span></p>
+                    <p class="text-xs text-slate-400">A/N: PANITIA SILAT NUSANTARA</p>
+                </div>
+                <div class="p-5 bg-brand-dark border border-slate-800 rounded-sm">
+                    <span class="text-sm font-bold text-brand-bronze block mb-2">E-Wallet</span>
+                    <div class="text-xs text-slate-400 space-y-1">
+                        <p>GoPay: <span class="font-mono text-slate-200">08xxxxxxxxxx</span></p>
+                        <p>DANA: <span class="font-mono text-slate-200">08xxxxxxxxxx</span></p>
+                        <p>OVO: <span class="font-mono text-slate-200">08xxxxxxxxxx</span></p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-xs text-slate-500 italic">**Catatan: Pastikan Anda menyimpan bukti transfer untuk diunggah pada formulir pendaftaran di atas.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER / FINAL CTA -->
+    <footer class="bg-brand-dark border-t border-slate-900 py-12 text-center text-xs text-slate-500">
+        <div class="max-w-xl mx-auto px-4 mb-6">
+            <h3 class="text-base font-bold text-white mb-2">Jangan Lewatkan Kesempatan Emas Ini!</h3>
+            <p class="text-slate-400 leading-relaxed mb-4">Persiapkan fisik, asah teknik, dan jadilah juara sejati di panggung SILAT NUSANTARA. Kuota peserta terbatas untuk menjaga kualitas pertandingan!</p>
+            <a href="#pendaftaran" class="inline-block bg-brand-bronze hover:bg-brand-cream text-brand-dark font-bold px-6 py-3 uppercase tracking-wider transition-all rounded-sm">KIRIM FORMULIR & DAFTAR SEKARANG</a>
+        </div>
+        <p class="pt-6 border-t border-slate-900/60">© SILAT NUSANTARA. Hak Cipta Dilindungi Undang-Undang.</p>
+    </footer>
+
+</body>
+</html>
